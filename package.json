@@ -1,0 +1,52 @@
+{
+  "name": "animiaut",
+  "version": "2.17.0",
+  "description": "A helpful logging package with types, formatting, stacks, and colors.",
+  "keywords": [
+    "dolor",
+    "iusto",
+    "color",
+    "sint",
+    "ut",
+    "et",
+    "voluptatem"
+  ],
+  "main": "js/index",
+  "types": "dts/index",
+  "files": [
+    "js",
+    "dts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run compile",
+    "compile": "npm run clean && /usr/local/bin/tsc -p tsconfig.json",
+    "watch": "tsc -w -p .",
+    "clean": "rm -rf js && rm -rf dts",
+    "start": "node js/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BraxtonHermann/animiaut.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "KirkFerry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BraxtonHermann/animiaut.git/issues"
+  },
+  "dependencies": {
+    "colors": "latest",
+    "omnisnisi": "^1.0.0",
+    "voluptatumnemo": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "jest": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
+  }
+}
